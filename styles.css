@@ -1,26 +1,26 @@
 body{
     text-align: center;
     font-size: 2em;
-    color: rgb(255, 255, 255);
     background-color: black;
 }
 
 div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 h3 {
     cursor: pointer;
     border: 6px outset red;
+    color: red;
     margin: 1em;
     padding: 10px;
-    color: red;
+    width: 6.5em;
+    text-shadow: -2px 1px 1px rgb(160, 0, 0);
 }
 
 h3:hover {
     background-color: rgb(172, 0, 0);
     color: white;
-    width: auto;
 }
